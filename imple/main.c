@@ -56,6 +56,7 @@ int main()
     printf("\n*****Please Enter any one of below available ");
     printf("options****\n");
                       calculator_operations();
+                X=0;
         }
     }
 }
