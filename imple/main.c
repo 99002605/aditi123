@@ -58,6 +58,7 @@ int main()
     printf("options****\n");
                       calculator_operations();
                 X=0;
+                
         }
     }
 }
