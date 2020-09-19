@@ -53,47 +53,47 @@ void test_add(void) {
   CU_ASSERT(30 == addition(10, 20));
   
   /* Dummy fail*/
-  /*CU_ASSERT(1500 == addition(750, 7500));*/
+  CU_ASSERT(1500 == addition(750, 7500));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-3 == subtraction(0, 3));
   
   /* Dummy fail*/
-  /*CU_ASSERT(1 == subtraction(1000, 900));*/
+  CU_ASSERT(1 == subtraction(1000, 900));
 }
 
 void test_multiply(void) {
   CU_ASSERT(0 == multiplication(1, 0));
   
   /* Dummy fail*/
- /* CU_ASSERT(2 == multiplication(2, 5));*/
+  CU_ASSERT(2 == multiplication(2, 5));
 }
 
 void test_divide(void) {
   CU_ASSERT(0 == division(1, 0));
   
   /* Dummy fail*/
- /* CU_ASSERT(3 == division(2, 2));*/
+ CU_ASSERT(3 == division(2, 2));
 }
 
 void test_modulus(void) {
   CU_ASSERT(0 == modulus(10, 2));
   
   /* Dummy fail*/
- /* CU_ASSERT(3 == modulus(2, 3));*/
+  CU_ASSERT(3 == modulus(2, 3));
 }
 
 void test_power(void) {
   CU_ASSERT(6 == power(2, 3));
   
   /* Dummy fail*/
- /* CU_ASSERT(3 == power(2, 0));*/
+  CU_ASSERT(3 == power(2, 0));
 }
 
 void test_factorial(void) {
   CU_ASSERT(120 == factorial(5));
   
   /* Dummy fail*/
-/*  CU_ASSERT(32 == factorial(4));*/
+ CU_ASSERT(32 == factorial(4));
 }
