@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
-#define PROJECT_NAME    "imple"
+#define PROJECT_NAME    "TEST"
 
 /* Prototypes for all the test functions */
 void test_addition(void);
