@@ -55,6 +55,9 @@ void multiplication()
     scanf("%d", &a); 
     printf("Please enter second number: "); 
     scanf("%d", &b);
+    if(b==0)
+    printf(" \n Answer is zero");
+    else
     mul=a*b;
     printf("\nMultiplication of entered numbers = %d\n",mul);
 }
@@ -66,6 +69,9 @@ void division()
     scanf("%d", &a); 
     printf("Please enter second number : "); 
     scanf("%d", &b);
+    if(b==0)
+    printf(" \n Cannot divide by zero");
+    else
     d=a/b;
     printf("\nDivision of entered numbers=%d\n",d);
 }
@@ -83,15 +89,17 @@ void modulus()
  
 void power()
 {
-    double a,num, p;
+    double power,num, p;
     printf("\nEnter two numbers to find the power \n");
     printf("number: ");
-    scanf("%lf",&a);
- 
-    printf("power : ");
     scanf("%lf",&num);
  
-    p=pow(a,num);
+    printf("power : ");
+    scanf("%lf",&power);
+    if(power==0)
+    printf("\n Answer=1");
+    else
+    p=pow(num,power);
  
     printf("\n%lf to the power %lf = %lf \n",a,num,p);
 }
