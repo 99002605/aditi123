@@ -55,7 +55,7 @@ void multiplication()
     scanf("%d", &a); 
     printf("Please enter second number: "); 
     scanf("%d", &b);
-    if(b==0)
+    if(a==0 || b==0)
     printf(" \n Answer is zero");
     else
     mul=a*b;
