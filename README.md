@@ -6,3 +6,4 @@
 
 ![cppcheck-action](https://github.com/99002605/aditi123/workflows/cppcheck-action/badge.svg)
 
+![Unit testing](https://github.com/99002605/aditi123/workflows/Unit%20testing/badge.svg)
